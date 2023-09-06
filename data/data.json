@@ -26,5 +26,12 @@
     "weight": "67",
     "birthdate": "2019-10-15",
     "married": false
+  },
+  {
+    "name": "ogi",
+    "height": "167",
+    "weight": "67",
+    "birthdate": "2018-02-06",
+    "married": true
   }
 ]
