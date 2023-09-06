@@ -3,8 +3,8 @@
     "name": "Himawan",
     "height": "168",
     "weight": "75",
-    "birthdate": "1991-01-09",
-    "married": true
+    "birthdate": "1991-01-10",
+    "married": false
   },
   {
     "name": "Rahmat",
@@ -29,9 +29,9 @@
   },
   {
     "name": "ogi",
-    "height": "167",
+    "height": "165",
     "weight": "64",
-    "birthdate": "2018-01-06",
-    "married": true
+    "birthdate": "2018-01-07",
+    "married": false
   }
 ]
