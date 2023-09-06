@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 25px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.create {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.create:hover {
+    background-color: #0056b3;
+}
+
+form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input,
+select {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button.save {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+button.save:hover {
+    background-color: #45a049;
+}
+
+.cancel {
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cancel:hover {
+    background-color: #0056b3;
+}
+
+
+a.update-button {
+    background-color: #4caf50;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px; 
+}
+
+a.update-button:hover {
+    background-color: #45a049;
+    
+}
+
+
+a.delete-button {
+    background-color: #f44336; 
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a.delete-button:hover {
+    background-color: #d32f2f; 

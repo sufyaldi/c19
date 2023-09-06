@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updating Data</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <input type="text" id="name" name="name" placeholder="Insert your name" value='<%= item.name %>'>
+            <input type="number" id="height" name="height" placeholder="Insert your height" value='<%= item.height %>'>
+            <input type="number" step="0.0001" id="weight" name="weight" placeholder="Insert your weight"
+                value='<%= item.weight %>'>
+            <input type="date" id="birthdate" name="birthdate" value='<%= item.birthdate %>'>
+            <select id="married" name="married">
+                <option value="true" <%=item.married ? 'selected' : '' %>>True</option>
+                <option value="false" <%=!item.married ? 'selected' : '' %>>False</option>
+            </select>
+            <button type="submit" class="save">Save</button> &nbsp;
+            <a class="cancel" href="/">Cancel</a>
+        </form>
+    </div>
+</body>
+
+</html>

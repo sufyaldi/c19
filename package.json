@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "rubicamp_c19",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "aldis",
+  "license": "ISC",
+  "description": ""
+}
